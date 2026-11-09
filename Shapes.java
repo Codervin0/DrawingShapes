@@ -4,6 +4,13 @@ public class Shapes {
     int turtleMoves = 0;
 
 Turtle lenny = new Turtle();
+
+            for (int i = 0; i < 9 ; i++) {
+            lenny.forward(50);
+            lenny.left(160);
+            turtleMoves++;
+            }
+   
     lenny.right(180);
     turtleMoves++;
     lenny.forward(60);
@@ -33,3 +40,4 @@ Turtle lenny = new Turtle();
 
     }
 }
+
